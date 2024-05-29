@@ -145,7 +145,7 @@ class _SearchByCityPageState extends ConsumerState<SearchByCityPage> {
             );
           }
 
-          return DView.error();
+          return DView.error(data: status);
         },
       ),
     );

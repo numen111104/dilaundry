@@ -6,8 +6,8 @@ import '../pages/dashboard_views/my_laundry_view.dart';
 
 class AppConstants {
   static const appName = 'Di Laundry';
-  
-  static const _host = 'http://192.168.0.104:8000';
+
+  static const _host = 'http://10.0.2.2:8000';
 
   /// ``` baseURL = 'http://192.168.43.186:8000/api' ```
   static const baseURL = '$_host/api';
